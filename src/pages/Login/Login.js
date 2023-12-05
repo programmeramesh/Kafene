@@ -26,8 +26,8 @@ function Login(props) {
             return;
         }
         const { data } = await axios.post(LOGIN_ENDPOINT, {
-            username: 'qaifi', 
-            password: 'qaifi'
+            username: 'Qaifi', 
+            password: 'Password'
         })
         if(data && data.username==='Qaifi') {
             setAuth(true);
